@@ -2,14 +2,14 @@
 // 3-way switch to control delay
 // 7.1.2013 Visa Ritvola
 
-int optoPin = 5;      // Optocoupler pin
-int delaySwitch1 = 6;  // Delayswitch in position 1
-int delaySwitch2 = 7; // in position 2
-int ledPin = 8;
+const int optoPin = 5;      // Optocoupler pin
+const int delaySwitch1 = 6;  // Delayswitch in position 1
+const int delaySwitch2 = 7; // in position 2
+const int ledPin = 8;
 
-int delayTime1 = 5000; // five second delay
-int delayTime2 = 20000;  // twenty second delay
-int delayTime3 = 60000;  // one minute delay
+const int delayTime1 = 5000; // five second delay
+const int delayTime2 = 20000;  // twenty second delay
+const int delayTime3 = 60000;  // one minute delay
 
 void setup()
 {
